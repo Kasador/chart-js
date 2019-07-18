@@ -6,8 +6,16 @@ $white: whitesmoke;
 // body
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: $gray;
+    background-color: $white;
     color: $black;
+}
+// App 
+.AppContainer {
+    margin-left: 200px;
+}
+// Home
+.Home {
+    text-align: center;
 }
 // Navbar
 .Nav {
@@ -34,15 +42,18 @@ body {
                 margin: 10px;
                 cursor: pointer;
 
-                transition: all 0.2s;
+                transition: all 0.1s;
 
                 i {
                     padding: 10px;
                 }
             }
             li:hover {
-                color: lightgrey;
+                color: $gray;
             }
         }
     }
+}
+.Chart {
+    text-align: center;
 }
