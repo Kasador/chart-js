@@ -1,7 +1,8 @@
 // colors
 $gray: #ccc;
+$code-background: #F7F7F7;
 $black: #222;
-$white: whitesmoke;
+$white: #fff;
 
 // body
 body {
@@ -9,17 +10,44 @@ body {
     background-color: $white;
     color: $black;
 }
-// App 
-.AppContainer {
+// App
+.AppContainerWrapper {
     margin-left: 200px;
+}
+.AppContainer {
+    width: 70%;
+    margin: 0 auto;
+    padding: 40px 0px;
 }
 // Home
 .Home {
-    text-align: center;
+    width: 100%;
+}
+.HomeMain {
+    width: 100%;
+
+    h1 {
+        font-size: 3rem;
+        font-weight: 900;
+        padding: 5px;
+        color: gray;
+    }
+    h2 {
+        font-size: 2.0rem;
+        font-weight: 900;
+        padding: 15px; 
+        color: gray;
+    }
+    p {
+        padding: 5px;
+        margin: 10px 20px;
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+    }
 }
 // Navbar
 .Nav {
-    position: absolute;
+    position: fixed;
 
     nav {
         height: 100vh;
@@ -54,6 +82,18 @@ body {
         }
     }
 }
-.Chart {
-    text-align: center;
+// chart
+.Charts {
+    width: 100%;
+}
+// page titles 
+.PageTitles {
+    font-size: 1.2rem;
+    color: $gray;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
 }
