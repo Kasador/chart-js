@@ -1,8 +1,9 @@
 // colors
-$gray: #ccc;
-$code-background: #F7F7F7;
 $black: #222;
-$white: #fff;
+$white: whitesmoke;
+$gray: #ccc;
+$h1: #444;
+$h2: gray;
 
 // body
 body {
@@ -30,13 +31,14 @@ body {
         font-size: 3rem;
         font-weight: 900;
         padding: 5px;
-        color: gray;
+        margin-top: 20px;
+        color: $h1;
     }
     h2 {
         font-size: 2.0rem;
         font-weight: 900;
-        padding: 15px; 
-        color: gray;
+        margin: 20px;
+        color: $h2;
     }
     p {
         padding: 5px;
@@ -85,6 +87,18 @@ body {
 // chart
 .Charts {
     width: 100%;
+}
+.ChartsWrapper {
+    width: 100%;
+
+    h1 {
+        font-size: 2.5rem;
+        margin: 20px;
+        color: $h1;
+    }
+    hr {
+        margin: 20px;
+    }
 }
 // page titles 
 .PageTitles {
