@@ -10,7 +10,6 @@ function Charts() {
             </div>
             <div className="ChartsWrapper">
                 <h1>Bar Chart</h1>
-                <hr></hr>
                 <Bar />
             </div>
         </div>

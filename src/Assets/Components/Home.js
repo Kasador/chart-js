@@ -42,12 +42,10 @@ npm install --save react-chartjs-2`;
             </div>
             <div className="HomeMain">
                 <h1>Why?</h1>
-                <hr></hr>
                 <p>This application is developed to help me and others learn, understand, and create charts using the ChartJS library. This library allows us to display and organize data in charts, whether that be a graph by line, bar, pie, or radar format.</p>
                 <p>This is also done using ReactJS and this will serves as a guide to me and hopefully others in creating/developing beauitful charts and graphs, all while using ReactJS.</p>
                 <p>I got the idea to make a guide when I was struggling to find information on how to develop and learn the library Chart.js, but in React. I found that there was a scarcity on how to go about doing so in React, and less with React Hooks & functional-based components.</p>
                 <h1>How?</h1>
-                <hr></hr>
                 <p>How we go about installing and using this library is slightly different than how we would originally implement it using a CDN or HTML5 canvas.</p>
                 <p>What we need to start using ChartJS with React will require us to install a few dependencies first using the following npm packages within out React app.</p>
                 <h2>npm</h2>
@@ -73,7 +71,6 @@ npm install --save react-chartjs-2`;
                 </SyntaxHighlighter>
                 <p>Now that the setup is basically done. Let's start making a chart and see how we can implement it into our React app.</p>
                 <h1>Bar Chart</h1>
-                <hr></hr>
                 <p>First, let's make our states. For our bar chart to work we will be needing two states. One is for the data and the other is for for the options and we set these within our function-based component.</p>
                 <SyntaxHighlighter language="jsx" style={tomorrow}>
                     {barStateSet}
