@@ -13,7 +13,7 @@ function Nav() {
                 <img src={Logo} alt="logo" />
                 <ul>
                     <Link to="/" style={styleNav}>
-                        <li><i className="fas fa-home"></i>Home</li>
+                        <li><i className="fas fa-file-alt"></i>Docs</li>
                     </Link>
                     <Link to="/charts" style={styleNav}>
                         <li><i className="fas fa-chart-bar"></i>Charts</li>
